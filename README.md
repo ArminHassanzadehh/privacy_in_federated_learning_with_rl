@@ -41,7 +41,9 @@ The agent observes:
 ### Reward Function
 
 The reward balances utility and privacy:
+
 Reward = Accuracy − λ × PrivacyLeakage
+
 where privacy leakage is approximated using model confidence as a proxy.
 
 
